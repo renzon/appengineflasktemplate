@@ -1,6 +1,7 @@
 import pytest
 
-from core.main import app
+from appengine_config import app
+
 
 
 @pytest.fixture

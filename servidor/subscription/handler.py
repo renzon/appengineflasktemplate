@@ -1,8 +1,8 @@
-from flask import Flask
+from flask import Blueprint
 
-app = Flask(__name__)
+app = Blueprint('subscription', __name__)
 
 
-@app.route('/inscricao')
+@app.route('')
 def form():
     return 'foo'
